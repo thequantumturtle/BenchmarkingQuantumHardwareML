@@ -23,6 +23,7 @@ python -m benchmarking.benchmark
 
 This will run all tasks on the simulator and print the resulting metrics.
 
+<<<<<<< lj1txa-codex/create-benchmarking-framework-for-quantum-hardware
 To run the MNIST benchmark using the Qiskit simulator (requires Qiskit and
 TensorFlow):
 
@@ -39,3 +40,15 @@ image which includes Qiskit and TensorFlow:
 docker build -t qhw-bench .
 docker run --rm qhw-bench python -m benchmarking.mnist_benchmark
 ```
+=======
+## Docker
+
+Build the Docker image and run the benchmark inside the container:
+
+```bash
+docker build -t benchmark .
+docker run --rm benchmark
+```
+
+This will execute `python -m benchmarking.benchmark` in the container.
+>>>>>>> main

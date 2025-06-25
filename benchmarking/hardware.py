@@ -70,3 +70,4 @@ class QiskitSimulator(QuantumHardware):
         counts = result.get_counts(qc)
         return 1 if counts.get("1", 0) > 0 else 0
 
+

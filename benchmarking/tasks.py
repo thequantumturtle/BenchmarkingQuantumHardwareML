@@ -30,6 +30,7 @@ class ParityClassificationTask(MLTask):
         accuracy = correct / 2
         return {"accuracy": accuracy}
 
+<<<<<<< lj1txa-codex/create-benchmarking-framework-for-quantum-hardware
 
 class MNISTClassificationTask(MLTask):
     """Simple MNIST parity task using pixel intensity threshold."""
@@ -60,3 +61,5 @@ class MNISTClassificationTask(MLTask):
         accuracy = correct / len(x_train)
         return {"accuracy": accuracy}
 
+=======
+>>>>>>> main
