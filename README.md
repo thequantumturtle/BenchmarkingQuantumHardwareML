@@ -22,3 +22,10 @@ python -m benchmarking.benchmark
 ```
 
 This will run all tasks on the simulator and print the resulting metrics.
+
+To run the MNIST benchmark using the Qiskit simulator (requires Qiskit and
+TensorFlow):
+
+```bash
+python -m benchmarking.mnist_benchmark
+```
