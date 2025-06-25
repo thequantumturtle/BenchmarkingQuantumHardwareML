@@ -22,3 +22,14 @@ python -m benchmarking.benchmark
 ```
 
 This will run all tasks on the simulator and print the resulting metrics.
+
+## Docker
+
+Build the Docker image and run the benchmark inside the container:
+
+```bash
+docker build -t benchmark .
+docker run --rm benchmark
+```
+
+This will execute `python -m benchmarking.benchmark` in the container.
